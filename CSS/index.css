@@ -1,0 +1,67 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    flex-wrap:wrap;
+    padding:15px;
+}
+
+
+.nav-link{
+    color:black;
+}
+
+.nav{
+    padding:5px;
+    background-color:white;
+    width: 100%;
+}
+
+.child1 {
+    width:63%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 15px;
+    font-family: 'Lora', serif;
+    font-weight:300;
+    font-size:21px;
+}
+
+
+.child2 {
+    width:37%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+a:hover{
+    color:salmon;
+}
+
+h1,h2,h3,h5{
+    padding:2px;
+    font-family: 'Domine', serif;
+}
+
+img{
+    width:80%;
+    padding:10px;
+}
+
+
+
+
+.Inhance{
+    opacity:0;
+}
+
+.WRI{
+    opacity:0;
+    
+}
+
+.Wanderlist{
+    opacity:0;
+    
+}
