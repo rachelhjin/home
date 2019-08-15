@@ -1,12 +1,23 @@
-body{
-    font-family: 'Roboto', sans-serif;
-    flex-wrap:wrap;
-    padding:15px;
+.jumbotron{
+    background-color:white;
 }
 
+.aboutButton{
+    background-color:cornflowerblue;
+    border-color:white;
+}
 
+.aboutButton:hover{
+    background-color:Salmon;
+}
+
+/*navigation*/
 .nav-link{
     color:black;
+}
+
+.nav-link:active{
+    color:salmon;
 }
 
 .nav{
@@ -21,7 +32,7 @@ body{
     justify-content: flex-start;
     align-items: center;
     padding: 15px;
-    font-family: 'Lora', serif;
+    font-family: 'Raleway', sans-serif;
     font-weight:300;
     font-size:21px;
 }
@@ -35,24 +46,74 @@ body{
     padding: 15px;
 }
 
-a:hover{
-    color:salmon;
+
+.child2 > nav-link-active a{
+    text-decoration:none; 
 }
 
-h1,h2,h3,h5{
-    padding:2px;
-    font-family: 'Domine', serif;
-}
-
+/*Images*/
 img{
     width:100%;
-    height:auto;
     padding:10px;
 }
 
 
 
+/*Typography*/
+h1,h2,h3,h5{
+    padding:2px;
+    font-family:'Raleway', sans-serif;
+}
 
+h2{
+    margin-top:23px;
+}
+
+h5{
+    font-weight:1000;
+}
+
+h5 {
+    color:#3591C4;
+}
+
+a h5:hover{
+    color:salmon;
+}
+
+h6{
+    font-weight:400;
+}
+
+body{
+    font-family:'Poppins', sans-serif;
+    flex-wrap:wrap;
+    padding:15px;
+}
+
+a:hover{
+    color:salmon;
+}
+
+.nav-link-active{
+    color:#3591C4;
+    text-decoration-line: underline;
+}
+
+/*Contact*/
+i{
+    padding-left:8px;
+}
+
+a i{
+    color:#3591C4;
+}
+
+a i:hover{
+    color:salmon;
+}
+
+/*Javascript*/
 .Inhance{
     opacity:0;
 }
