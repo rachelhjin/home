@@ -1,4 +1,4 @@
-.jumbotron{
+.jumbotron-fluid{
     background-color:white;
 }
 
@@ -60,7 +60,11 @@ img{
 
 
 /*Typography*/
-h1,h2,h3,h5{
+h1{
+    font-family:'Poppins', sans-serif;
+}
+
+h2,h3,h5{
     padding:2px;
     font-family:'Raleway', sans-serif;
 }
