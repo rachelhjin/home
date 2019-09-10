@@ -8,7 +8,7 @@ $(document).ready(function() {
 $(window).scroll( function(){
       
 /* Check the location of each desired element */
-$('.Inhance').each( function(i){
+$('.Toys').each( function(i){
               
     var bottom_of_object = $(this).position().top + $(this).outerHeight();
     var bottom_of_window = $(window).scrollTop() + $(window).height();
@@ -34,7 +34,7 @@ $(document).ready(function() {
 $(window).scroll( function(){
       
 /* Check the location of each desired element */
-$('.WRI').each( function(i){
+$('.Inhance').each( function(i){
               
     var bottom_of_object = $(this).position().top + $(this).outerHeight();
     var bottom_of_window = $(window).scrollTop() + $(window).height();
@@ -61,7 +61,7 @@ $(document).ready(function() {
 $(window).scroll( function(){
       
 /* Check the location of each desired element */
-$('.Wanderlist').each( function(i){
+$('.WRI').each( function(i){
               
     var bottom_of_object = $(this).position().top + $(this).outerHeight();
     var bottom_of_window = $(window).scrollTop() + $(window).height();
